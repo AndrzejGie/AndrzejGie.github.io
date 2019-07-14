@@ -76,21 +76,33 @@ a:hover {
     color: #ffffff;
 }
 .sec-txt {
-    color: #09ec5c;
+    color: #0c9e42;
 }
 
 /* ===end header=== */
 
 /* ===start about=== */
-.mnie {
+/* .mnie {
     height: auto;
     background-color: red;
+} */
+#about {
+    background-color: #f9fcfe;
 }
 section {
     padding: 80px 80px 100px;
 }
 .morda {
     max-height: 350px;
+    max-width: 100%;
+    float: left;
+}
+figure {
+    text-align: center;
+    margin: 0;
+    float: left;
+}
+article { 
     float: left;
 }
 /* ===end about=== */
